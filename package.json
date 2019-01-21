@@ -1,0 +1,43 @@
+{
+  "name": "@resmio/mantecao",
+  "author": "resmio <developers@resmio.com> (https://resmio.com)",
+  "version": "2.2.0-beta.2",
+  "description": "A react UI library for resmio",
+  "main": "./index.js",
+  "module": "./index.es.js",
+  "jsnext:main": "./index.es.js",
+  "keywords": [
+    "react",
+    "ui",
+    "library",
+    "components",
+    "icons",
+    "resmio"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/resmio/mantecao.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/resmio/mantecao/issues"
+  },
+  "homepage": "https://resmio.github.io/mantecao",
+  "peerDependencies": {
+    "react": "15.x",
+    "react-dom": "15.x",
+    "react-event-listener": "0.x"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "polished": "^1.2.1",
+    "react-event-listener": "^0.4.5",
+    "styled-components": "^2.1.0"
+  },
+  "release": {
+    "verifyConditions": "condition-circle"
+  },
+  "scripts": {
+    "semantic-release": "npm install -D semantic-release && semantic-release pre && npm publish && semantic-release post"
+  }
+}
